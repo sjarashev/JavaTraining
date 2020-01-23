@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.pft.addressbook.tests.ModifyGroupTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2020-01-18T03:19:22" hostname="DEVT58010" time="0.0">
+  <properties/>
+  <testcase name="testModifyGroup" classname="ru.stqa.pft.addressbook.tests.ModifyGroupTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[22:19:22.650 [Test worker] INFO  r.s.pft.addressbook.tests.TestBase - start test testModifyGroupwith parameters []
+22:19:22.650 [Test worker] INFO  r.s.pft.addressbook.tests.TestBase - stop test testModifyGroupwith parameters []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

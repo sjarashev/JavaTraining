@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="firstPackage.PointTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-11-20T16:06:58" hostname="DEVT58010" time="0.007">
+  <properties/>
+  <testcase name="testPoint1" classname="firstPackage.PointTests" time="0.007"/>
+  <testcase name="testPoint2" classname="firstPackage.PointTests" time="0.0"/>
+  <testcase name="testPoint3" classname="firstPackage.PointTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<list>
+  <contact>
+    <name>Name 1</name>
+    <lastName>LastName 1</lastName>
+    <title>title 1</title>
+    <companyName>companyName 1</companyName>
+    <companyAddress>Address 1</companyAddress>
+    <email>email 1</email>
+    <homePhone>phone 1</homePhone>
+    <group>group</group>
+  </contact>
+</list>

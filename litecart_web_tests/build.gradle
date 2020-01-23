@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = "ru.stqa.pft.litecart.ru.stqa.pft.litecart.appmanager.appmanager.firstPackage.MyFirstProgram"
+
+test {
+    useTestNG()
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.0.0'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.+'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-api', version: '3.14.0'
+}

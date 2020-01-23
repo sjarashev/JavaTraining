@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.pft.addressbook.tests.DeleteContactTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2020-01-18T03:19:31" hostname="DEVT58010" time="0.0">
+  <properties/>
+  <testcase name="testDeleteContact" classname="ru.stqa.pft.addressbook.tests.DeleteContactTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[22:19:31.710 [Test worker] INFO  r.s.pft.addressbook.tests.TestBase - start test testDeleteContactwith parameters []
+22:19:31.710 [Test worker] INFO  r.s.pft.addressbook.tests.TestBase - stop test testDeleteContactwith parameters []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
