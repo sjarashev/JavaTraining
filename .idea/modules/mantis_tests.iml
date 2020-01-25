@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../mantis_tests">
       <excludeFolder url="file://$MODULE_DIR$/../../mantis_tests/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../mantis_tests/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../mantis_tests/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
