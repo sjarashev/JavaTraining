@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook_web_tests.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook_web_tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook_web_tests.main.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook_web_tests.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook_web_tests.test.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook_web_tests.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/github_sample.iml" filepath="$PROJECT_DIR$/.idea/modules/github_sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/github_sample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/github_sample.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/github_sample.test.iml" filepath="$PROJECT_DIR$/.idea/modules/github_sample.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/litecart_web_tests.iml" filepath="$PROJECT_DIR$/.idea/modules/litecart_web_tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/litecart_web_tests.main.iml" filepath="$PROJECT_DIR$/.idea/modules/litecart_web_tests.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/litecart_web_tests.test.iml" filepath="$PROJECT_DIR$/.idea/modules/litecart_web_tests.test.iml" />

@@ -12,6 +12,9 @@
     <projectState path="$PROJECT_DIR$/addressbook_web_tests">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/github_sample">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/litecart_web_tests">
       <ProjectState />
     </projectState>
@@ -54,7 +57,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/rest_sample/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/github_sample/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -84,7 +87,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RestTests.isIssueOpen">
+  <component name="RunManager" selected="TestNG.GitHubTests.testCommits">
+    <configuration name="GitHubTests.testCommits" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="github_sample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.github" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.github.GitHubTests" />
+      <option name="METHOD_NAME" value="testCommits" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RestTests.isIssueOpen" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rest_sample.test" />
       <extension name="coverage">
@@ -114,24 +135,6 @@
       <option name="PACKAGE_NAME" value="ru.stqa.pft.rest.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.rest.tests.RestTests" />
       <option name="METHOD_NAME" value="isIssueOpen1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestTests.print" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="rest_sample.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.rest.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.rest.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.rest.tests.RestTests" />
-      <option name="METHOD_NAME" value="print" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -177,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GitHubTests.testCommits" />
         <item itemvalue="TestNG.RestTests.isIssueOpen" />
         <item itemvalue="TestNG.RestTests.testCreateIssue" />
         <item itemvalue="TestNG.SoapTests.isIssueOpen" />
         <item itemvalue="TestNG.RestTests.isIssueOpen1" />
-        <item itemvalue="TestNG.RestTests.print" />
       </list>
     </recent_temporary>
   </component>
