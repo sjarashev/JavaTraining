@@ -84,7 +84,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SoapTests.isIssueOpen">
+  <component name="RunManager" selected="TestNG.RestTests.isIssueOpen">
+    <configuration name="RestTests.isIssueOpen" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="rest_sample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.rest.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.rest.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.rest.tests.RestTests" />
+      <option name="METHOD_NAME" value="isIssueOpen" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RestTests.isIssueOpen1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rest_sample.test" />
       <extension name="coverage">
@@ -139,23 +157,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoapTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantis_tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.rest.appmanager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.mantis.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.rest.tests.SoapTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SoapTests.isIssueOpen" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mantis_tests.test" />
       <extension name="coverage">
@@ -176,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SoapTests.isIssueOpen" />
+        <item itemvalue="TestNG.RestTests.isIssueOpen" />
         <item itemvalue="TestNG.RestTests.testCreateIssue" />
+        <item itemvalue="TestNG.SoapTests.isIssueOpen" />
         <item itemvalue="TestNG.RestTests.isIssueOpen1" />
         <item itemvalue="TestNG.RestTests.print" />
-        <item itemvalue="TestNG.SoapTests" />
       </list>
     </recent_temporary>
   </component>
@@ -209,5 +210,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rest_sample/src/test/java/ru/stqa/pft/rest/tests/RestTests.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

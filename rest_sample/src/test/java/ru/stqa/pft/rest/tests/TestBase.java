@@ -19,9 +19,9 @@ public class TestBase {
     String json = app.rest().getExecutor().execute(Request.Get(String.format("https://bugify.stqa.ru/api/issues/%s.json", issueId)))
             .returnContent().asString();
     JsonElement parsed = new JsonParser().parse(json);
-    String state = parsed.getAsJsonObject().get("state_name").getAsString();
+    String state = parsed.getAsJsonObject().get("issues").getAsJsonArray().get(0).getAsJsonObject().get("state_name").getAsString();
     boolean status = false;
-    if(state.equals("Open")) {
+    if(!state.equals("Closed")) {
       status = true;
     }
     return status;
