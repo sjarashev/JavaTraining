@@ -40,9 +40,9 @@ public class TestBase {
     String password = app.getProperty("web.adminPassword");
     MantisConnectPortType mc = app.soap().getMantisConnect();
     IssueData issue = mc.mc_issue_get(user, password, BigInteger.valueOf(issueId));
-    int status = issue.getStatus().getId().intValue();
+    String status = issue.getStatus().getName();
     boolean open = false;
-    if (status == 10) {
+    if (!status.equals("closed")) {
       open = true;
     }
     return open;

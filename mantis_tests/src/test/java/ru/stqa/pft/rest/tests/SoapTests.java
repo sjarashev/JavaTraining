@@ -1,10 +1,13 @@
 package ru.stqa.pft.rest.tests;
 
+import biz.futureware.mantis.rpc.soap.client.IssueData;
+import biz.futureware.mantis.rpc.soap.client.MantisConnectPortType;
 import org.testng.annotations.Test;
 import ru.stqa.pft.rest.model.Issue;
 import ru.stqa.pft.rest.model.Project;
 
 import javax.xml.rpc.ServiceException;
+import java.math.BigInteger;
 import java.net.MalformedURLException;
 import java.rmi.RemoteException;
 import java.util.Set;

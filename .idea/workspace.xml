@@ -84,25 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RestTests.testCreateIssue">
-    <configuration name="ResetPasswordTest.testResetPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantis_tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.rest.appmanager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.mantis.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.rest.tests.ResetPasswordTest" />
-      <option name="METHOD_NAME" value="testResetPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SoapTests.isIssueOpen">
     <configuration name="RestTests.isIssueOpen1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rest_sample.test" />
       <extension name="coverage">
@@ -174,13 +156,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SoapTests.isIssueOpen" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantis_tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.rest.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.rest.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.rest.tests.SoapTests" />
+      <option name="METHOD_NAME" value="isIssueOpen" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SoapTests.isIssueOpen" />
         <item itemvalue="TestNG.RestTests.testCreateIssue" />
         <item itemvalue="TestNG.RestTests.isIssueOpen1" />
         <item itemvalue="TestNG.RestTests.print" />
         <item itemvalue="TestNG.SoapTests" />
-        <item itemvalue="TestNG.ResetPasswordTest.testResetPassword" />
       </list>
     </recent_temporary>
   </component>
