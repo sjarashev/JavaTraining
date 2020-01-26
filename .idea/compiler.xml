@@ -12,6 +12,8 @@
       <module name="mantis_tests.test" target="1.8" />
       <module name="rest_sample.main" target="1.8" />
       <module name="rest_sample.test" target="1.8" />
+      <module name="sandbox.main" target="1.8" />
+      <module name="sandbox.test" target="1.8" />
       <module name="soap_sample.main" target="1.8" />
       <module name="soap_sample.test" target="1.8" />
     </bytecodeTargetLevel>

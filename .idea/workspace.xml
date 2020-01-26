@@ -24,6 +24,9 @@
     <projectState path="$PROJECT_DIR$/rest_sample">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/sandbox">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/soap_sample">
       <ProjectState />
     </projectState>
@@ -32,6 +35,9 @@
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$/mantis_tests">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/sandbox">
           <activation />
         </task>
         <projects_view>
@@ -57,7 +63,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/github_sample/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sandbox/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -87,7 +93,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GitHubTests.testCommits">
+  <component name="RunManager" selected="TestNG.PointTests">
+    <configuration name="PointTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.sandbox.PointTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="GitHubTests.testCommits" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="github_sample.test" />
       <extension name="coverage">
@@ -106,6 +132,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PointTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sandbox.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.sandbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.sandbox" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.PointTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RestTests.isIssueOpen" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rest_sample.test" />
       <extension name="coverage">
@@ -117,24 +160,6 @@
       <option name="PACKAGE_NAME" value="ru.stqa.pft.rest.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.rest.tests.RestTests" />
       <option name="METHOD_NAME" value="isIssueOpen" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestTests.isIssueOpen1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="rest_sample.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.rest.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.rest.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.rest.tests.RestTests" />
-      <option name="METHOD_NAME" value="isIssueOpen1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -160,31 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoapTests.isIssueOpen" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantis_tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.rest.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.rest.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.rest.tests.SoapTests" />
-      <option name="METHOD_NAME" value="isIssueOpen" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PointTests" />
+        <item itemvalue="Gradle.PointTests" />
         <item itemvalue="TestNG.GitHubTests.testCommits" />
         <item itemvalue="TestNG.RestTests.isIssueOpen" />
         <item itemvalue="TestNG.RestTests.testCreateIssue" />
-        <item itemvalue="TestNG.SoapTests.isIssueOpen" />
-        <item itemvalue="TestNG.RestTests.isIssueOpen1" />
       </list>
     </recent_temporary>
   </component>
