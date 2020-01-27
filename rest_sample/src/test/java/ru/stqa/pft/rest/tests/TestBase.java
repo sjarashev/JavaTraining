@@ -16,10 +16,12 @@ public class TestBase {
           new ApplicationManager();
 
   private boolean isIssueOpen(int issueId) throws IOException {
-    String json = app.rest().getExecutor().execute(Request.Get(String.format("https://bugify.stqa.ru/api/issues/%s.json", issueId)))
+    String json = app.rest().getExecutor()
+            .execute(Request.Get(String.format("https://bugify.stqa.ru/api/issues/%s.json", issueId)))
             .returnContent().asString();
     JsonElement parsed = new JsonParser().parse(json);
-    String status = parsed.getAsJsonObject().get("issues").getAsJsonArray().get(0).getAsJsonObject().get("state_name").getAsString();
+    String status = parsed.getAsJsonObject().get("issues").getAsJsonArray().get(0).getAsJsonObject()
+            .get("state_name").getAsString();
     boolean open = false;
     if(!status.equals("Closed")) {
       open = true;
