@@ -19,12 +19,12 @@ public class TestBase {
     String json = app.rest().getExecutor().execute(Request.Get(String.format("https://bugify.stqa.ru/api/issues/%s.json", issueId)))
             .returnContent().asString();
     JsonElement parsed = new JsonParser().parse(json);
-    String state = parsed.getAsJsonObject().get("issues").getAsJsonArray().get(0).getAsJsonObject().get("state_name").getAsString();
-    boolean status = false;
-    if(!state.equals("Closed")) {
-      status = true;
+    String status = parsed.getAsJsonObject().get("issues").getAsJsonArray().get(0).getAsJsonObject().get("state_name").getAsString();
+    boolean open = false;
+    if(!status.equals("Closed")) {
+      open = true;
     }
-    return status;
+    return open;
   }
 
   @BeforeMethod(enabled = false)

@@ -70,15 +70,18 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ru.stqa.pft.rest.tests" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ru.stqa.pft.rest.tests" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sjarashev\Desktop\Java Training\Java_B10\addressbook_web_tests\src\test\resources\screenshots" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sjarashev\Desktop\Java Training\Java_B10\rest_sample\src\test\resources" />
       <recent name="C:\Users\sjarashev\Desktop\Java Training\Java_B10\rest_sample" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.stqa.pft.rest.tests" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.stqa.pft.rest.tests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -220,16 +223,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rest_sample/src/test/java/ru/stqa/pft/rest/tests/RestTests.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
