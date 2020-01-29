@@ -96,7 +96,7 @@ public class ContactHelper extends HelperBase {
   }
 
   public void selectContactById(int id) {
-    wd.findElement(By.cssSelector("input[value='" + id + "']")).click();
+    wd.findElement(By.xpath("//input[@name='selected[]'][@value='" + id + "']")).click();
   }
 
   public void add(){
@@ -112,18 +112,10 @@ public class ContactHelper extends HelperBase {
     return j;
   }
 
-  public void selectAndAdd3(ContactData contact, int id) {
+  public void selectAndAdd(ContactData contact, int id) {
     selectContactById(contact.getId());
     String s = String.valueOf(id);
     new Select(wd.findElement(By.name("to_group"))).selectByValue(s);
-    add();
-    goToHomePage();
-  }
-
-  public void selectAndAdd(ContactData contact, GroupData group) {
-    String id = String.valueOf(group.getId());
-    selectContactById(contact.getId());
-    new Select(wd.findElement(By.name("to_group"))).selectByValue(id);
     add();
     goToHomePage();
   }

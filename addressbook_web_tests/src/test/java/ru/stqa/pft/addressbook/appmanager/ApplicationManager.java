@@ -9,14 +9,24 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.Assert;
+import ru.stqa.pft.addressbook.model.ContactData;
+import ru.stqa.pft.addressbook.model.Contacts;
+import ru.stqa.pft.addressbook.model.GroupData;
+import ru.stqa.pft.addressbook.model.Groups;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
+import java.util.HashSet;
 import java.util.Properties;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.hasItem;
 
 public class ApplicationManager {
   private WebDriver wd;
@@ -38,7 +48,7 @@ public class ApplicationManager {
     properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
     dbHelper = new DbHelper();
 
-    if("".equals(properties.getProperty("selenium.server"))) {
+    if ("".equals(properties.getProperty("selenium.server"))) {
       switch (browser) {
         case BrowserType.FIREFOX:
           wd = new FirefoxDriver();
@@ -89,5 +99,52 @@ public class ApplicationManager {
 
   public DbHelper db() {
     return dbHelper;
+  }
+
+  public int newGroupId() {
+    Groups groups = db().groups();
+    int newGroupId = 0;
+    for (GroupData group : groups) {
+      int maxId = group.getId();
+      if (maxId > newGroupId) {
+        newGroupId = maxId;
+      }
+    }
+    return newGroupId;
+  }
+
+  public int after(GroupData group, int id) {
+    Groups groups = db().groups();
+    int after = 0;
+    if (id == 0) {
+      for (GroupData groupAfter : groups) {
+        if (groupAfter.getId() == group.getId()) {
+          after = groupAfter.getContacts().size();
+          break;
+        }
+      }
+    }
+    for (GroupData groupAfter : groups) {
+      if (groupAfter.getId() == id) {
+        after = groupAfter.getContacts().size();
+      }
+    }
+    return after;
+  }
+
+  public void findMatchingPair(GroupData group, Contacts contacts) {
+    Set<ContactData> sortedContacts = new HashSet<ContactData>();
+    int before = group.getContacts().size();
+    for (ContactData contact : contacts) {
+      try {
+        assertThat(group.getContacts(), hasItem(contact));
+      } catch (AssertionError e) {
+        sortedContacts.add(contact);
+      }
+    }
+    if (sortedContacts.size() != 0) {
+      contact().selectAndAdd(sortedContacts.iterator().next(), group.getId());
+      Assert.assertTrue(after(group, 0) > before);
+    }
   }
 }

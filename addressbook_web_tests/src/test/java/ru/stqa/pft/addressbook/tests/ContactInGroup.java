@@ -1,14 +1,11 @@
 package ru.stqa.pft.addressbook.tests;
 
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import ru.stqa.pft.addressbook.model.ContactData;
 import ru.stqa.pft.addressbook.model.Contacts;
 import ru.stqa.pft.addressbook.model.GroupData;
 import ru.stqa.pft.addressbook.model.Groups;
-
-import java.util.List;
 
 public class ContactInGroup extends TestBase {
 
@@ -28,49 +25,19 @@ public class ContactInGroup extends TestBase {
 
   @Test(enabled = true)
   public void testAddContactIntoGroup() {
-    ContactData contact = app.db().contacts().iterator().next();
-    GroupData group = app.db().groups().iterator().next();
-    int index = app.db().groups().size();
-    Contacts contacts = group.getContacts();
-    int before = contact.getGroups().size();
-
-    if (group.getContacts().size() == 0) {
-      app.contact().selectAndAdd(contact, group);
-      contact = app.db().contacts().iterator().next();
-      int after = contact.getGroups().size();
-      Assert.assertTrue(after > before);
-
-    } else {
-      for (ContactData conData : contacts) {
-        try {
-          Assert.assertNotEquals(conData.getId(), contact.getId());
-        } catch (AssertionError e) {
-          app.goTo().groupPage();
-          app.group().create(new GroupData().withName("group").withHeader("header").withFooter("footer"));
-          List<WebElement> ws = app.group().allGroups();
-          int max = 0;
-          for (WebElement w : ws) {
-            int g = Integer.parseInt(w.getAttribute("value"));
-            if (g > max) {
-              max = g;
-            }
-          }
-          app.goTo().homePage();
-          app.contact().selectAndAdd3(contact, max);
-          contact = app.db().contacts().iterator().next();
-          int after = contact.getGroups().size();
-          Assert.assertTrue(after > before);
-          break;
+    Groups groups = app.db().groups();
+    Contacts contacts = app.db().contacts();
+    for (GroupData group : groups) {
+      if (group.getContacts().size() != contacts.size()) {
+        app.findMatchingPair(group, contacts);
+        return;
         }
       }
-      int index2 = app.db().groups().size();
-      if (index == index2) {
-        app.contact().selectAndAdd(contact, group);
-        contact = app.db().contacts().iterator().next();
-        int after = contact.getGroups().size();
-        Assert.assertTrue(after > before);
-      }
-    }
+    app.goTo().groupPage();
+    app.group().create(new GroupData().withName("New group").withHeader("header").withFooter("footer"));
+    app.goTo().homePage();
+    app.contact().selectAndAdd(contacts.iterator().next(), app.newGroupId());
+    Assert.assertTrue(app.after(null, app.newGroupId()) > 0);
   }
 
   @Test(enabled = true)
