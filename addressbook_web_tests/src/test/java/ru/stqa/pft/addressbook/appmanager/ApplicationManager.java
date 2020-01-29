@@ -133,17 +133,17 @@ public class ApplicationManager {
   }
 
   public void findMatchingPair(GroupData group, Contacts contacts) {
-    Set<ContactData> sortedContacts = new HashSet<ContactData>();
+    Set<ContactData> filteredContacts = new HashSet<ContactData>();
     int before = group.getContacts().size();
     for (ContactData contact : contacts) {
       try {
         assertThat(group.getContacts(), hasItem(contact));
       } catch (AssertionError e) {
-        sortedContacts.add(contact);
+        filteredContacts.add(contact);
       }
     }
-    if (sortedContacts.size() != 0) {
-      contact().selectAndAdd(sortedContacts.iterator().next(), group.getId());
+    if (filteredContacts.size() != 0) {
+      contact().selectAndAdd(filteredContacts.iterator().next(), group.getId());
       Assert.assertTrue(after(group, 0) > before);
     }
   }
