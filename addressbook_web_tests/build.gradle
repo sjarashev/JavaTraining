@@ -21,7 +21,7 @@ dependencies {
     implementation 'org.hibernate:hibernate-core:5.4.10.Final'
 }
 
-task testngGroups (type: Test) {
+task testngGroups(type: Test) {
     useTestNG {
         suites 'src/test/resources/testng-groups.xml'
     }
@@ -39,9 +39,27 @@ task testngGroups (type: Test) {
     }
 }
 
-task testngContacts (type: Test) {
+task testngContacts(type: Test) {
     useTestNG {
         suites 'src/test/resources/testng-contacts.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+    if (project.hasProperty('platform')) {
+        systemProperty 'platform', "${platform}"
+    }
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+    if (project.hasProperty('verifyUI')) {
+        systemProperty 'verifyUI', "${verifyUI}"
+    }
+}
+
+task testngContactsInGroup(type: Test) {
+    useTestNG {
+        suites 'src/test/resources/testng-ContactsInGroup.xml'
     }
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
