@@ -101,7 +101,7 @@ public class ApplicationManager {
     return dbHelper;
   }
 
-  public int newGroupId() {
+  public int getNewGroupId() {
     Groups groups = db().groups();
     int newGroupId = 0;
     for (GroupData group : groups) {

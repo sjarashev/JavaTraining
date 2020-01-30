@@ -36,8 +36,8 @@ public class ContactInGroup extends TestBase {
     app.goTo().groupPage();
     app.group().create(new GroupData().withName("New group").withHeader("header").withFooter("footer"));
     app.goTo().homePage();
-    app.contact().selectAndAdd(contacts.iterator().next(), app.newGroupId());
-    Assert.assertTrue(app.after(null, app.newGroupId()) > 0);
+    app.contact().selectAndAdd(contacts.iterator().next(), app.getNewGroupId());
+    Assert.assertTrue(app.after(null, app.getNewGroupId()) > 0);
   }
 
   @Test(enabled = true)

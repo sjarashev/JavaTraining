@@ -11,7 +11,7 @@ public class AddToCartTest extends TestBase {
     clientApp.deleteProductsFromTheCart(3);
   }
 
-  @Test (enabled = true)
+  @Test (enabled = false)
   public void startStart(){
     adminApp.openWebPage();
     adminApp.d();
