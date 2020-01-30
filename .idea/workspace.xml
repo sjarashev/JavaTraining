@@ -2,80 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31590d39-4fbf-406e-86a9-beac13bc71e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/out/test/classes/ru/stqa/pft/addressbook/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/out/test/classes/ru/stqa/pft/addressbook/appmanager/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/out/test/classes/ru/stqa/pft/addressbook/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/out/test/classes/ru/stqa/pft/addressbook/tests/TestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactInGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactInGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200119T214209.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200119T225550.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200122T220158.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T211043.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T211635.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T211946.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T212430.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T212943.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T214759.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T215107.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T215220.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T215535.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T220604.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T221217.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T221509.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T222019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T222153.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T222937.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T223031.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T223046.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T223312.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T224751.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T225032.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T225816.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T231007.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T231346.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T231623.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T231923.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T232049.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T232213.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T232350.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T232449.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T232530.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T232604.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T232633.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T232702.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T232811.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T232915.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T232958.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T233059.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T233201.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T233305.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200128T235439.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T001951.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T002413.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T002707.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T002751.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T004140.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T004649.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T004823.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T010233.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T013938.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T014040.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T015158.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T021210.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T021333.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T021412.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T021729.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T022041.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T022218.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T022248.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T022433.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T022541.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T022612.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/test-20200129T022741.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/litecart_web_tests/out/test/classes/ru/stqa/pft/litecart/tests/AddToCartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/out/test/classes/ru/stqa/pft/litecart/tests/AddToCartTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/tests/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/tests/AddToCartTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
