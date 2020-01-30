@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="31590d39-4fbf-406e-86a9-beac13bc71e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/out/test/classes/ru/stqa/pft/addressbook/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/out/test/classes/ru/stqa/pft/addressbook/appmanager/ApplicationManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,7 +100,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AddToCartTest">
+  <component name="RunManager" selected="TestNG.AddContactTest.testAddContact">
+    <configuration name="AddContactTest.testAddContact" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook_web_tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.AddContactTest" />
+      <option name="METHOD_NAME" value="testAddContact" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart_web_tests.test" />
       <extension name="coverage">
@@ -153,24 +172,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactInGroup.testAddContactIntoGroup11" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook_web_tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactInGroup" />
-      <option name="METHOD_NAME" value="testAddContactIntoGroup11" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ContactInGroup.testRemoveContactFromGroup" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook_web_tests.test" />
       <extension name="coverage">
@@ -191,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddContactTest.testAddContact" />
         <item itemvalue="TestNG.AddToCartTest" />
         <item itemvalue="TestNG.ContactInGroup.testRemoveContactFromGroup" />
         <item itemvalue="TestNG.ContactInGroup.testAddContactIntoGroup" />
         <item itemvalue="TestNG.ContactInGroup.testAddContactIntoGroup1" />
-        <item itemvalue="TestNG.ContactInGroup.testAddContactIntoGroup11" />
       </list>
     </recent_temporary>
   </component>
