@@ -4,7 +4,8 @@
     <list default="true" id="31590d39-4fbf-406e-86a9-beac13bc71e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactInGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactInGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactInGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactsInGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/src/test/resources/testng-contactsInGroup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/resources/testng-contactsInGroup.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ContactInGroup.testRemoveContactFromGroup">
+  <component name="RunManager">
     <configuration name="AddContactTest.testAddContact" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook_web_tests.test" />
       <extension name="coverage">
@@ -136,7 +137,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactInGroup.testAddContactIntoGroup" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactsInGroups" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook_web_tests.test" />
       <extension name="coverage">
         <pattern>
@@ -145,7 +146,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactInGroup" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactsInGroups" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactsInGroups.testAddContactIntoGroup" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook_web_tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactsInGroups" />
       <option name="METHOD_NAME" value="testAddContactIntoGroup" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -154,7 +172,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactInGroup.testAddContactIntoGroup1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactsInGroups.testRemoveAllContactsFromAllGroups" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook_web_tests.test" />
       <extension name="coverage">
         <pattern>
@@ -163,26 +181,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactInGroup" />
-      <option name="METHOD_NAME" value="testAddContactIntoGroup1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactInGroup.testRemoveContactFromGroup" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook_web_tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactInGroup" />
-      <option name="METHOD_NAME" value="testRemoveContactFromGroup" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactsInGroups" />
+      <option name="METHOD_NAME" value="testRemoveAllContactsFromAllGroups" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -192,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ContactInGroup.testRemoveContactFromGroup" />
+        <item itemvalue="TestNG.ContactsInGroups.testRemoveAllContactsFromAllGroups" />
+        <item itemvalue="TestNG.ContactsInGroups" />
         <item itemvalue="TestNG.AddContactTest.testAddContact" />
         <item itemvalue="TestNG.AddToCartTest" />
-        <item itemvalue="TestNG.ContactInGroup.testAddContactIntoGroup" />
-        <item itemvalue="TestNG.ContactInGroup.testAddContactIntoGroup1" />
+        <item itemvalue="TestNG.ContactsInGroups.testAddContactIntoGroup" />
       </list>
     </recent_temporary>
   </component>
@@ -225,16 +225,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactInGroup.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

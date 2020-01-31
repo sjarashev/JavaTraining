@@ -3,7 +3,7 @@
 <suite name="Suite1" verbose="1" >
     <test name="ContactInGroup" >
         <classes>
-            <class name="ru.stqa.pft.addressbook.tests.ContactInGroup" />
+            <class name="ru.stqa.pft.addressbook.tests.ContactsInGroups" />
         </classes>
     </test>
 </suite>

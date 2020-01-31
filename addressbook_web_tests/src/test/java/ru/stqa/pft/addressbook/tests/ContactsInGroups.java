@@ -7,7 +7,7 @@ import ru.stqa.pft.addressbook.model.Contacts;
 import ru.stqa.pft.addressbook.model.GroupData;
 import ru.stqa.pft.addressbook.model.Groups;
 
-public class ContactInGroup extends TestBase {
+public class ContactsInGroups extends TestBase {
 
   @BeforeMethod
   public void ensurePreconditions() {
@@ -41,29 +41,12 @@ public class ContactInGroup extends TestBase {
   }
 
   @Test(enabled = true)
-  public void testRemoveContactFromGroup() {
+  public void testRemoveAllContactsFromAllGroups() {
     Contacts contacts = app.db().contacts();
     Groups groups = app.db().groups();
     if (!app.contactsInGroups(contacts)) {
       app.contact().selectAndAdd(contacts.iterator().next(), groups.iterator().next().getId());
     }
-    contacts = app.db().contacts();
-    for (ContactData contact : contacts) {
-      int id = contact.getId();
-      try {
-        Assert.assertNull(contact.getGroups());
-      } catch (AssertionError e) {
-        Groups groupsFromContact = contact.getGroups();
-        int before = groupsFromContact.size();
-        for (GroupData group : groupsFromContact) {
-          app.contact().selectAndRemove(contact, group);
-          app.goTo().homePage();
-          ContactData contactFromDb = app.db().contact(id);
-          groupsFromContact = contactFromDb.getGroups();
-          int after = groupsFromContact.size();
-          Assert.assertTrue(after < before);
-        }
-      }
-    }
+    app.removeAllContactsFromAllGroups();
   }
 }

@@ -158,4 +158,25 @@ public class ApplicationManager {
     }
     return contactsInGroups;
   }
+
+  public void removeAllContactsFromAllGroups() {
+    Contacts contacts = db().contacts();
+    for (ContactData contact : contacts) {
+      int id = contact.getId();
+      try {
+        Assert.assertNull(contact.getGroups());
+      } catch (AssertionError e) {
+        Groups groupsFromContact = contact.getGroups();
+        int before = groupsFromContact.size();
+        for (GroupData group : groupsFromContact) {
+          contact().selectAndRemove(contact, group);
+          goTo().homePage();
+          ContactData contactFromDb = db().contact(id);
+          groupsFromContact = contactFromDb.getGroups();
+          int after = groupsFromContact.size();
+          Assert.assertTrue(after < before);
+        }
+      }
+    }
+  }
 }
