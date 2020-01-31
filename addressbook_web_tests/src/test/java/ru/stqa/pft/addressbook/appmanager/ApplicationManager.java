@@ -1,7 +1,6 @@
 package ru.stqa.pft.addressbook.appmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -16,7 +15,6 @@ import ru.stqa.pft.addressbook.model.GroupData;
 import ru.stqa.pft.addressbook.model.Groups;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
@@ -26,7 +24,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.hasItem;
+import static org.hamcrest.Matchers.*;
 
 public class ApplicationManager {
   private WebDriver wd;
@@ -146,5 +144,18 @@ public class ApplicationManager {
       contact().selectAndAdd(filteredContacts.iterator().next(), group.getId());
       Assert.assertTrue(after(group, 0) > before);
     }
+  }
+
+  public boolean contactsInGroups(Contacts contacts) {
+    boolean contactsInGroups = false;
+    for (ContactData contact : contacts) {
+      try {
+        assertThat(contact.getGroups().size(), equalTo(0));
+      } catch (AssertionError e) {
+        contactsInGroups = true;
+        break;
+      }
+    }
+    return contactsInGroups;
   }
 }

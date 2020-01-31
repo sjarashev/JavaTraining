@@ -43,6 +43,11 @@ public class ContactInGroup extends TestBase {
   @Test(enabled = true)
   public void testRemoveContactFromGroup() {
     Contacts contacts = app.db().contacts();
+    Groups groups = app.db().groups();
+    if (!app.contactsInGroups(contacts)) {
+      app.contact().selectAndAdd(contacts.iterator().next(), groups.iterator().next().getId());
+    }
+    contacts = app.db().contacts();
     for (ContactData contact : contacts) {
       int id = contact.getId();
       try {
