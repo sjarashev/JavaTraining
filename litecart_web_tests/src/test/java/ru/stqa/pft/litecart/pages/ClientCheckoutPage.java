@@ -3,15 +3,14 @@ package ru.stqa.pft.litecart.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import java.util.List;
 import static org.openqa.selenium.support.ui.ExpectedConditions.stalenessOf;
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOf;
 
-public class CheckoutPage extends Page {
+public class ClientCheckoutPage extends Page {
 
-  public CheckoutPage(WebDriver driver) {
+  public ClientCheckoutPage(WebDriver driver) {
     super(driver);
   }
 

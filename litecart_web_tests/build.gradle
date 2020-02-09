@@ -16,4 +16,5 @@ dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.+'
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-api', version: '3.14.0'
+    testCompile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.30'
 }

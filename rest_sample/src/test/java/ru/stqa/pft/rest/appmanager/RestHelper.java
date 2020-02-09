@@ -13,4 +13,9 @@ public class RestHelper {
   public Executor getExecutor() {
     return Executor.newInstance().auth("288f44776e7bec4bf44fdfeb1e646490", "");
   }
+
+  public Executor getExecutor1() {
+    return Executor.newInstance().auth("tacbhrlqrqgary2bt5exm2lzjwjjmwhmsadf27i7znidvk5oobua", "");
+  }
+
 }

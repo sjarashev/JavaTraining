@@ -2,10 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31590d39-4fbf-406e-86a9-beac13bc71e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/pages/AdminCountriesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/pages/AdminCountryZonesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/pages/AdminMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/litecart_web_tests.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/litecart_web_tests.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactInGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactsInGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/src/test/resources/testng-contactsInGroup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/resources/testng-contactsInGroup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/out/test/resources/contacts.json" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/out/test/resources/contacts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/out/test/resources/groups.json" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/out/test/resources/groups.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/src/test/resources/contacts.json" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/resources/contacts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook_web_tests/src/test/resources/groups.json" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook_web_tests/src/test/resources/groups.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/out/test/classes/ru/stqa/pft/litecart/app/AdminApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/out/test/classes/ru/stqa/pft/litecart/app/AdminApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/out/test/classes/ru/stqa/pft/litecart/app/ClientApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/out/test/classes/ru/stqa/pft/litecart/app/ClientApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/out/test/classes/ru/stqa/pft/litecart/pages/CheckoutPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/out/test/classes/ru/stqa/pft/litecart/pages/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/out/test/classes/ru/stqa/pft/litecart/pages/ProductPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/out/test/classes/ru/stqa/pft/litecart/tests/AddToCartTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/out/test/classes/ru/stqa/pft/litecart/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/out/test/classes/ru/stqa/pft/litecart/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/out/test/classes/ru/stqa/pft/litecart/tests/TestHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/out/test/classes/ru/stqa/pft/litecart/tests/TestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/app/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/app/AdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/app/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/app/ClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/pages/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/pages/ClientCheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/pages/ClientMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/pages/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/pages/ClientProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/tests/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/tests/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/tests/GettingStarted.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/tests/GettingStarted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/tests/TestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/app/TestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart_web_tests/src/test/java/ru/stqa/pft/litecart/tests/TestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_sample/out/test/classes/ru/stqa/pft/rest/appmanager/RestHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest_sample/out/test/classes/ru/stqa/pft/rest/appmanager/RestHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_sample/out/test/classes/ru/stqa/pft/rest/tests/RestTests$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest_sample/out/test/classes/ru/stqa/pft/rest/tests/RestTests$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_sample/out/test/classes/ru/stqa/pft/rest/tests/RestTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest_sample/out/test/classes/ru/stqa/pft/rest/tests/RestTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_sample/out/test/classes/ru/stqa/pft/rest/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest_sample/out/test/classes/ru/stqa/pft/rest/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_sample/src/test/java/ru/stqa/pft/rest/appmanager/RestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest_sample/src/test/java/ru/stqa/pft/rest/appmanager/RestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_sample/src/test/java/ru/stqa/pft/rest/tests/RestTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest_sample/src/test/java/ru/stqa/pft/rest/tests/RestTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,28 +98,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WmGHs8tssj0MRXRllq2l3q27Vy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sandbox/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook_web_tests" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sjarashev\Desktop\Java Training\Java_B10\addressbook_web_tests\src\test\resources\screenshots" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.stqa.pft.rest.tests" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sjarashev\Desktop\Java Training\Java_B10\rest_sample\src\test\resources" />
       <recent name="C:\Users\sjarashev\Desktop\Java Training\Java_B10\rest_sample" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.stqa.pft.litecart.admin_pages" />
       <recent name="ru.stqa.pft.rest.tests" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ru.stqa.pft.rest.tests" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sjarashev\Desktop\Java Training\Java_B10\addressbook_web_tests\src\test\resources\screenshots" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -120,24 +156,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="litecart_web_tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.litecart.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.litecart.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.litecart.tests.AddToCartTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactsInGroups" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddGroupTest.testAddGroup" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook_web_tests.test" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +165,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactsInGroups" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.AddGroupTest" />
+      <option name="METHOD_NAME" value="testAddGroup" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -190,13 +210,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests.testSortCountries" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="litecart_web_tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.litecart.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.litecart.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.litecart.tests.Tests" />
+      <option name="METHOD_NAME" value="testSortCountries" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.AddContactTest.testAddContact" />
+      <item itemvalue="TestNG.AddGroupTest.testAddGroup" />
+      <item itemvalue="TestNG.ContactsInGroups.testAddContactIntoGroup" />
+      <item itemvalue="TestNG.ContactsInGroups.testRemoveAllContactsFromAllGroups" />
+      <item itemvalue="TestNG.Tests.testSortCountries" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Tests.testSortCountries" />
         <item itemvalue="TestNG.ContactsInGroups.testRemoveAllContactsFromAllGroups" />
-        <item itemvalue="TestNG.ContactsInGroups" />
-        <item itemvalue="TestNG.AddContactTest.testAddContact" />
-        <item itemvalue="TestNG.AddToCartTest" />
         <item itemvalue="TestNG.ContactsInGroups.testAddContactIntoGroup" />
+        <item itemvalue="TestNG.AddGroupTest.testAddGroup" />
+        <item itemvalue="TestNG.AddContactTest.testAddContact" />
       </list>
     </recent_temporary>
   </component>

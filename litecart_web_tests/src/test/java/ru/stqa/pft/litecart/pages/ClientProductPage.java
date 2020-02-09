@@ -9,9 +9,9 @@ import org.openqa.selenium.support.ui.Select;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 
-public class ProductPage extends Page {
+public class ClientProductPage extends Page {
 
-  public ProductPage(WebDriver driver) {
+  public ClientProductPage(WebDriver driver) {
     super(driver);
   }
 

@@ -1,13 +1,13 @@
-package ru.stqa.pft.litecart.tests;
+package ru.stqa.pft.litecart.app;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
-class TestHelper{
+public class TestHelper{
 
-  List<String> createListOf(List<WebElement> we) {
+  public List<String> createListOf(List<WebElement> we) {
     List<String> newList = new ArrayList<>();
     for (WebElement webElement : we) {
       if (webElement.getText() != null && !webElement.getText().trim().equals("")) {
@@ -17,7 +17,7 @@ class TestHelper{
     return newList;
   }
 
-  void sort(List<String> we) {
+  public void sort(List<String> we) {
     String previousWe, currentWe;
     previousWe = we.get(0);
     for (int i = 1; i < we.size(); i++) {

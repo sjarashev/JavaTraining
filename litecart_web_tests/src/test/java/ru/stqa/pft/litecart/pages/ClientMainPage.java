@@ -3,13 +3,12 @@ package ru.stqa.pft.litecart.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOf;
 
-public class MainPage extends Page {
+public class ClientMainPage extends Page {
 
-  public MainPage(WebDriver driver) {
+  public ClientMainPage(WebDriver driver) {
     super(driver);
   }
 

@@ -1,4 +1,5 @@
 /*
+
 package ru.stqa.pft.litecart.tests;
 
 import org.openqa.selenium.*;
@@ -13,6 +14,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.JavascriptExecutor;
+import ru.stqa.pft.litecart.app.TestHelper;
 
 import java.io.File;
 
@@ -336,4 +338,5 @@ public class GettingStarted extends TestBase {
       Assert.assertEquals(products.size(), 3 - i);
     }
   }
-}*/
+}
+*/
